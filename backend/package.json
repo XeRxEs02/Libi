@@ -1,12 +1,15 @@
 
-{ "homepage": "https://XeRxEs02.github.io/Library-Interface",
+{ "homepages":"https://github.com/XeRxEs02/Libi",
   "name": "backend",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
+    
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
